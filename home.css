@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: beige
+}
+
+a {
+    padding: 5px 15px;
+}
+
+.nav {
+    padding: 15px;
+    width: 100vw;
+
+    background-color: burlywood;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    float: right;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+li a {
+    padding: 5px;
+    width: 20vmax;
+
+    display: block;
+}
+
+/* todo: make 'li a:hover' */
+a:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .links {
+        background-color: bisque
+    }
+
+    ul {
+        display: inline;
+        flex-direction: column
+    }
+}
