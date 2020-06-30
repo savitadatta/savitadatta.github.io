@@ -13,15 +13,36 @@ hr {
 
 #content {
     width: 90vw;
-    height: 100vh;
     margin: 15px;
-    padding: 0 15px;
+    padding: 15px;
     border: 5px solid #9F7E69;
     align-items: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .post {
-    border: 2px solid black
+    width: 25vw;
+    margin-top: 15px;
+    padding-left: 15px;
+
+    border: 2px solid #D2BBA0;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav {
