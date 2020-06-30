@@ -42,11 +42,15 @@ function createElement(entry) {
     img.className = "image";
     img.src = location;
     img.setAttribute('height', '180px');
+
+    var content = document.createElement('div');
+    content.className = "centre";
+    content.appendChild(img);
+    content.appendChild(text);
     
     var div = document.createElement('div');
     div.appendChild(heading);
-    div.append(img);
-    div.append(text);
+    div.appendChild(content);
     div.className = "post";
     return div;
 }
