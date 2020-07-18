@@ -1,6 +1,10 @@
 var content_container = document.getElementById("content");
 var data = [
     {
+        "title": "Apple and rhubarb crumble tarts",
+        "caption": "2020-07-10",
+        "location": "images/apple_rhubarb.jpg"
+    }, {
         "title": "Pistachio and rose macarons",
         "caption": "2020-06-17",
         "location": "images/pist_macarons.jpg"
