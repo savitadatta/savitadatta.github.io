@@ -1,0 +1,38 @@
+#content {
+    flex-direction: column;
+}
+
+.recipe {
+    justify-content: space-evenly;
+    min-width: 80vw;
+}
+
+.notes {
+    font-size: 16px;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header {
+    font-size: 20px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.ingredients {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 
+#9F7E69
+#D2BBA0
+#F2EFC7
+#F7FFE0
+#FFEEE2
+*/

@@ -14,7 +14,7 @@ hr {
 }
 
 #content {
-    width: 92vw;
+    width: 90vw;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 15px;
@@ -27,11 +27,16 @@ hr {
     justify-content: space-around;
 }
 
+#navbar_container {
+    width: 98vw;
+    align-content: initial;
+}
+
 .nav {
-    width: 100vw;
+    width: inherit;
 
     background-color: white;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .nav a {
