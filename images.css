@@ -1,0 +1,23 @@
+.post {
+    min-width: 43vw;
+    margin-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: 2px solid #D2BBA0;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.centre {
+    max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    font-size: 16px;
+}

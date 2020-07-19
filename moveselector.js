@@ -9,7 +9,7 @@ var movement = {
     "Queda de Rins": "end",
 };
 var defensive = {
-    "name": "Type of defensive movement",
+    "name": "Type of movement",
     "Esquiva": {
         "name": "Type of esquiva",
         "Esquiva de frente": "end",
@@ -79,14 +79,37 @@ function createOptions(select, menu) {
     });
 }
 
+function showAll(menu) {
+    var values = Object.keys(menu).map(function(key) {
+        if (key !== "name") {
+            var value = menu[key];
+            if (typeof value === "string") {
+                alert(key);
+            } else if (value.constructor == Object) {
+                showAll(value);
+            }
+        }
+    });
+}
+
 function addOptions(parent, menu) {
+    var div = document.createElement('div');
+    div.className = 'flex-row';
+    
     var select = document.createElement('select');
     createOptions(select, menu);
+    var button = document.createElement('button');
+    button.innerText = 'Show all';
+    button.onclick = function() {
+        showAll(menu);
+    }
 
-    parent.appendChild(select);
+    div.appendChild(select);
+    div.appendChild(button);
+    parent.appendChild(div);
 
     select.onchange = function() {
-        changed(parent, select, menu);
+        changed(div, select, menu);
     };
 }
 

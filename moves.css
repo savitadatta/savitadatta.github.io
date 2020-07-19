@@ -1,7 +1,7 @@
 select {
     font-size: 20px;
     min-width: 200px;
-    
+
     background-color: white;
     color: #9F7E69;
     border: none;
@@ -17,6 +17,21 @@ option {
     font-size: 18px;
 
     position: absolute;
+}
+
+button {
+    background-color: #D2BBA0;
+    border-color: #9F7E69;
+    color: black;
+}
+
+button:hover {
+    background-color: #9F7E69;
+    border-color: #D2BBA0;
+}
+
+.flex-row {
+    flex-direction: row;
 }
 
 /* 
