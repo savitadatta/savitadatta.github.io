@@ -1,23 +1,12 @@
 /* 
-coffee #6F4D38
-choc #9F7E69
-caramel #D2BBA0
-banana #F2EFC7
-vanilla #F7FFE0
-strawb #FFDCDC
-
-darker vanilla #FFF1B5
-darker strawb #FFB1B1
-
-COLOUR CONTRAST min 3:1 ok for non-text
-choc #825A42
+choc #825A42 (for light mode)
 strawb #Ef658B
+vanilla #FFF1B5 (for dark mode)
 cone #B78531
  */
 
 * {
     font-family: 'Courier New', Courier, monospace;
-    /* border: 1px solid black; */
     list-style: none;
 }
 
