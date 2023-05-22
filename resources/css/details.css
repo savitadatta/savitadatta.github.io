@@ -28,5 +28,4 @@ details[open] > summary::before {
 
 details > ul {
     list-style-type: none;
-    margin-bottom: 0;
 }
