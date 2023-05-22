@@ -2,12 +2,6 @@ a {
     color: black;
 }
 
-@media (prefers-color-scheme: dark) {
-    a {
-      color: #dddddd;
-    }
-}
-
 a.external {
     /* text-decoration: 2px underline #825A42; */
     text-decoration-color: #825A42;
@@ -23,6 +17,22 @@ a.internal {
 a:hover {
     /* text-decoration: 2px underline #B78531; */
     text-decoration-color: #B78531;
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+      color: #dddddd;
+    }
+
+    a.external {
+        text-decoration-color: #B78531;
+        text-decoration-thickness: 2px;
+    }
+
+    a:hover {
+        /* text-decoration: 2px underline #B78531; */
+        text-decoration-color: #FFF1B5;
+    }
 }
 
 .bottom-nav {
