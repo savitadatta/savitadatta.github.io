@@ -7,6 +7,12 @@ details {
     font-size: 20px;
 }
 
+/* SUMMARY */
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
 summary::before {
     content: "+  ";
     font-style: normal;
@@ -16,6 +22,8 @@ details[open] > summary::before {
     content: "-  ";
     font-style: normal;
 }
+
+/* CONTENTS */
 
 .indent, details > details {
     padding-left: 2em;
