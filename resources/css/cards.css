@@ -1,0 +1,12 @@
+.card {
+    /* outline: 1px solid #B78531; */
+    padding: 1em;
+}
+
+.card-header {
+    margin: 0;
+}
+
+.card-subheader {
+    margin-bottom: 0;
+}

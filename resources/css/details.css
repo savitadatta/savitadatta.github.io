@@ -1,0 +1,32 @@
+body > details {
+    margin-top: 1em;
+}
+
+details {
+    font-style: italic;
+    font-size: 20px;
+}
+
+summary::before {
+    content: "+  ";
+    font-style: normal;
+}
+
+details[open] > summary::before {
+    content: "-  ";
+    font-style: normal;
+}
+
+.indent, details > details {
+    padding-left: 2em;
+}
+
+.details-indent {
+    margin-top: 0;
+    padding-left: 1.2em;
+}
+
+details > ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}

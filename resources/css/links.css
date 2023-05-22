@@ -1,0 +1,21 @@
+a {
+    color: black;
+}
+
+a.external {
+    text-decoration: 2px underline #825A42;
+}
+
+a.internal {
+    text-decoration: 2px underline #Ef658B;
+}
+
+a:hover {
+    text-decoration: 2px underline #B78531;
+}
+
+.bottom-nav {
+    position: absolute;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
