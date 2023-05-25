@@ -7,11 +7,18 @@ cone #B78531
 
 * {
     font-family: 'Courier New', Courier, monospace;
-    list-style: none;
 }
 
 ol li {
     list-style: decimal;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+.no-list-style > li {
+    list-style: none;
 }
 
 body {
