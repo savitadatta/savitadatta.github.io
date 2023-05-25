@@ -17,7 +17,7 @@ ul li {
     list-style-type: square;
 }
 
-.no-list-style > li {
+.no-list-style li {
     list-style: none;
 }
 
