@@ -29,8 +29,7 @@ details[open] > summary::before {
 
 /* CONTENTS */
 
-/* for layered details elements' grouping */
-.inner-details {
+.details-contents {
     padding-left: 1.5em;
     margin-top: 0.5em;
 }
