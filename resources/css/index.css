@@ -80,3 +80,7 @@ p, .general-text {
     margin-right: auto;
     width: 70%;
 }
+
+body > p:not([class]) {
+    margin-bottom: 2.4rem;
+}
