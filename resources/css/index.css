@@ -5,6 +5,10 @@ vanilla #FFF1B5 (for dark mode)
 cone #B78531
  */
 
+html {
+    width: 100vw;
+}
+
 * {
     font-family: 'Courier New', Courier, monospace;
 }
