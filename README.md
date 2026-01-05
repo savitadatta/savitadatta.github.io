@@ -9,6 +9,14 @@ Hi! This site is just whatever I felt like writing about at the time. Feel free 
 WATCHPACK_POLLING = true
 ```
 
+### HTML
+```html
+<!-- live regions -->
+<div role="status" aria-live="polite">
+    put your update text here! (note: you may want to make this visually hidden)
+</div>
+```
+
 ### CSS
 ```css
 /* blur behind a dialog */
@@ -38,4 +46,16 @@ input[type="checkbox"]:checked {
 ::selection {
     background-color: pink;
 }
+
+/* descendant */
+div p {...}
+
+/* child */
+div > p {...}
+
+/* next sibling */
+div + p {...}
+
+/* subsequent sibling (all siblings after the selector) */
+div ~ p {...}
 ```
